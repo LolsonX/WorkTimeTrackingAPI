@@ -1,4 +1,4 @@
 class Modulu < ApplicationRecord
   belongs_to :project
-  belongs_to :state
+  has_one :state
 end

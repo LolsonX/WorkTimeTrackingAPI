@@ -1,5 +1,5 @@
 class Task < ApplicationRecord
   belongs_to :modulu
-  belongs_to :state
+  has_one :state
   belongs_to :user
 end
