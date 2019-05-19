@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4640afbf-7941-4142-8433-f548c10c14e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails WorkTimeTrackingAPI: development" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails WorkTimeTrackingAPI: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails WorkTimeTrackingAPI: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="WorkTimeTrackingAPI_development: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails WorkTimeTrackingAPI: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="WorkTimeTrackingAPI_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails WorkTimeTrackingAPI: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="WorkTimeTrackingAPI_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails WorkTimeTrackingAPI: development" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="WorkTimeTrackingAPI_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-283">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/customer_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/lib/json_web_token.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/modulu.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user_project.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/lib/json_web_token.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/concerns/form.html" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/role.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/customer_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WorkTimeTrackingAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkTimeTrackingAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkTimeTrackingAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkTimeTrackingAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkTimeTrackingAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: WorkTimeTrackingAPI">
+    <configuration name="Development: WorkTimeTrackingAPI" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="WorkTimeTrackingAPI" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: WorkTimeTrackingAPI" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="WorkTimeTrackingAPI" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: WorkTimeTrackingAPI" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="WorkTimeTrackingAPI" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: WorkTimeTrackingAPI" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="WorkTimeTrackingAPI" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4640afbf-7941-4142-8433-f548c10c14e6" name="Default Changelist" comment="" />
+      <created>1557851646658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557851646658</updated>
+      <workItem from="1557851647779" duration="1127000" />
+      <workItem from="1557854918832" duration="3910000" />
+      <workItem from="1557860982395" duration="727000" />
+      <workItem from="1558101427304" duration="757000" />
+      <workItem from="1558268148401" duration="853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7374000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18773334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30880713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.24520256" />
+      <window_info anchor="right" id="rails-model-fields" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://9eb24337-b5fd-46fa-9b0a-e501c56fac10/role/karol">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9eb24337-b5fd-46fa-9b0a-e501c56fac10/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/Role">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>Role</OriginalElement>
+          <nodes>
+            <node x="242.72093621399176" y="1069.0">WorkItem</node>
+            <node x="376.113683127572" y="351.0">User</node>
+            <node x="375.863683127572" y="163.0">Role</node>
+            <node x="31.5" y="605.0">Modulu</node>
+            <node x="219.863683127572" y="97.0">Customer</node>
+            <node x="209.15843621399176" y="0.0">ApplicationRecord</node>
+            <node x="10.5" y="163.0">State</node>
+            <node x="8.730452674897094" y="793.0">Task</node>
+            <node x="409.7173353909465" y="638.5">UserProject</node>
+            <node x="128.83333333333331" y="373.0">Project</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="User" target="Role">
+              <point x="-37.75000000000006" y="-102.0" />
+              <point x="413.863683127572" y="326.0" />
+              <point x="422.863683127572" y="326.0" />
+              <point x="0.0" y="36.0" />
+            </edge>
+            <edge source="WorkItem" target="Task">
+              <point x="-28.0" y="-58.0" />
+              <point x="270.72093621399176" y="1044.0" />
+              <point x="75.2304526748971" y="1044.0" />
+              <point x="0.0" y="113.0" />
+            </edge>
+            <edge source="Project" target="State">
+              <point x="-56.66666666666666" y="-80.0" />
+              <point x="157.16666666666666" y="326.0" />
+              <point x="88.83333333333331" y="326.0" />
+              <point x="31.33333333333333" y="36.0" />
+            </edge>
+            <edge source="User" target="ApplicationRecord">
+              <point x="37.74999999999994" y="-102.0" />
+              <point x="489.363683127572" y="326.0" />
+              <point x="480.363683127572" y="326.0" />
+              <point x="480.363683127572" y="67.0" />
+              <point x="316.76954732510285" y="67.0" />
+              <point x="33.111111111111086" y="13.5" />
+            </edge>
+            <edge source="Task" target="ApplicationRecord">
+              <point x="-49.875" y="-113.0" />
+              <point x="25.355452674897094" y="773.0" />
+              <point x="0.0" y="773.0" />
+              <point x="0.0" y="47.0" />
+              <point x="217.43621399176953" y="47.0" />
+              <point x="-66.22222222222223" y="13.5" />
+            </edge>
+            <edge source="Project" target="ApplicationRecord">
+              <point x="0.0" y="-80.0" />
+              <point x="213.83333333333331" y="326.0" />
+              <point x="209.363683127572" y="326.0" />
+              <point x="209.363683127572" y="77.0" />
+              <point x="267.1028806584362" y="77.0" />
+              <point x="-16.555555555555543" y="13.5" />
+            </edge>
+            <edge source="Task" target="Modulu">
+              <point x="16.625" y="-113.0" />
+              <point x="91.8554526748971" y="773.0" />
+              <point x="116.5" y="773.0" />
+              <point x="0.0" y="69.0" />
+            </edge>
+            <edge source="Project" target="Customer">
+              <point x="56.666666666666686" y="-80.0" />
+              <point x="270.5" y="326.0" />
+              <point x="287.863683127572" y="326.0" />
+              <point x="0.0" y="102.0" />
+            </edge>
+            <edge source="UserProject" target="Project">
+              <point x="-36.0" y="-35.5" />
+              <point x="427.7173353909465" y="575.0" />
+              <point x="256.3333333333333" y="575.0" />
+              <point x="42.5" y="80.0" />
+            </edge>
+            <edge source="Customer" target="ApplicationRecord">
+              <point x="0.0" y="-102.0" />
+              <point x="287.863683127572" y="77.0" />
+              <point x="283.65843621399176" y="77.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="Role" target="ApplicationRecord">
+              <point x="0.0" y="-36.0" />
+              <point x="422.863683127572" y="77.0" />
+              <point x="300.2139917695473" y="77.0" />
+              <point x="16.555555555555543" y="13.5" />
+            </edge>
+            <edge source="State" target="ApplicationRecord">
+              <point x="0.0" y="-36.0" />
+              <point x="57.5" y="57.0" />
+              <point x="233.99176954732508" y="57.0" />
+              <point x="-49.666666666666686" y="13.5" />
+            </edge>
+            <edge source="Task" target="User">
+              <point x="49.875" y="-113.0" />
+              <point x="125.1054526748971" y="773.0" />
+              <point x="387.5923353909465" y="773.0" />
+              <point x="387.5923353909465" y="585.0" />
+              <point x="413.863683127572" y="585.0" />
+              <point x="-37.75" y="102.0" />
+            </edge>
+            <edge source="Modulu" target="ApplicationRecord">
+              <point x="0.0" y="-69.0" />
+              <point x="116.5" y="585.0" />
+              <point x="118.33333333333331" y="585.0" />
+              <point x="118.33333333333331" y="67.0" />
+              <point x="250.54732510288065" y="67.0" />
+              <point x="-33.111111111111114" y="13.5" />
+            </edge>
+            <edge source="WorkItem" target="ApplicationRecord">
+              <point x="28.0" y="-58.0" />
+              <point x="326.72093621399176" y="1044.0" />
+              <point x="551.238683127572" y="1044.0" />
+              <point x="551.238683127572" y="47.0" />
+              <point x="349.880658436214" y="47.0" />
+              <point x="66.22222222222223" y="13.5" />
+            </edge>
+            <edge source="Modulu" target="Project">
+              <point x="56.66666666666666" y="-69.0" />
+              <point x="173.16666666666666" y="585.0" />
+              <point x="171.33333333333331" y="585.0" />
+              <point x="-42.5" y="80.0" />
+            </edge>
+            <edge source="Task" target="State">
+              <point x="-16.625" y="-113.0" />
+              <point x="58.605452674897094" y="763.0" />
+              <point x="18.991769547325077" y="763.0" />
+              <point x="18.991769547325077" y="326.0" />
+              <point x="26.166666666666657" y="326.0" />
+              <point x="-31.333333333333343" y="36.0" />
+            </edge>
+            <edge source="UserProject" target="User">
+              <point x="0.0" y="-35.5" />
+              <point x="463.7173353909465" y="585.0" />
+              <point x="489.363683127572" y="585.0" />
+              <point x="37.75" y="102.0" />
+            </edge>
+            <edge source="Modulu" target="State">
+              <point x="-56.66666666666666" y="-69.0" />
+              <point x="59.83333333333334" y="585.0" />
+              <point x="47.333333333333314" y="585.0" />
+              <point x="47.333333333333314" y="326.0" />
+              <point x="57.5" y="326.0" />
+              <point x="0.0" y="36.0" />
+            </edge>
+            <edge source="UserProject" target="ApplicationRecord">
+              <point x="36.0" y="-35.5" />
+              <point x="499.7173353909465" y="585.0" />
+              <point x="540.238683127572" y="585.0" />
+              <point x="540.238683127572" y="57.0" />
+              <point x="333.32510288065845" y="57.0" />
+              <point x="49.666666666666686" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.3983402489626556" x="276.0" y="593.0" />
+          <SelectedNodes>
+            <node>Role</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/concerns/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://GemDependency/#WorkTimeTrackingAPI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>GemDependency</ID>
+          <OriginalElement>#WorkTimeTrackingAPI</OriginalElement>
+          <nodes>
+            <node x="227.9636363636364" y="388.0">mimemagic</node>
+            <node x="2464.821590909091" y="388.0">websocket-extensions</node>
+            <node x="1677.5360921972774" y="515.0">method_source</node>
+            <node x="2890.321590909091" y="662.0">rspec-expectations</node>
+            <node x="2819.321590909091" y="515.0">rspec-support</node>
+            <node x="475.7823395902351" y="77.0">i18n</node>
+            <node x="2270.878149043936" y="515.0">nio4r</node>
+            <node x="841.9636363636365" y="388.0">globalid</node>
+            <node x="3157.071590909091" y="789.0">byebug</node>
+            <node x="2655.821590909091" y="789.0">rspec-rails</node>
+            <node x="835.4454545454545" y="0.0">concurrent-ruby</node>
+            <node x="1352.9939393939394" y="291.0">builder</node>
+            <node x="1249.5939393939393" y="662.0">actionmailer</node>
+            <node x="0.0" y="789.0">pg</node>
+            <node x="3103.571590909091" y="515.0">diff-lcs</node>
+            <node x="3344.2852272727273" y="0.0">mini_portile2</node>
+            <node x="490.9636363636364" y="388.0">activemodel</node>
+            <node x="3253.0352272727273" y="789.0">bcrypt</node>
+            <node x="1467.6397727272729" y="662.0">sprockets-rails</node>
+            <node x="955.9272727272729" y="662.0">bundler</node>
+            <node x="2036.821590909091" y="291.0">rails-html-sanitizer</node>
+            <node x="2351.821590909091" y="388.0">rack-test</node>
+            <node x="3066.321590909091" y="662.0">rspec-mocks</node>
+            <node x="419.9636363636364" y="515.0">activerecord</node>
+            <node x="261.7136363636364" y="515.0">marcel</node>
+            <node x="85.4636363636364" y="77.0">tzinfo</node>
+            <node x="873.9636363636365" y="515.0">mail</node>
+            <node x="3507.7852272727273" y="789.0">bootsnap</node>
+            <node x="340.9636363636364" y="388.0">arel</node>
+            <node x="1983.8860921972773" y="515.0">websocket-driver</node>
+            <node x="3613.7852272727273" y="789.0">puma</node>
+            <node x="2782.821590909091" y="789.0">jwt</node>
+            <node x="1809.621590909091" y="662.0">railties</node>
+            <node x="1141.5939393939393" y="291.0">erubi</node>
+            <node x="2769.321590909091" y="662.0">rspec-core</node>
+            <node x="1301.7439393939394" y="388.0">actionview</node>
+            <node x="2362.071590909091" y="291.0">rack</node>
+            <node x="1061.3439393939393" y="515.0">activejob</node>
+            <node x="3362.7852272727273" y="174.0">loofah</node>
+            <node x="1818.5360921972774" y="515.0">rake</node>
+            <node x="1586.796816998789" y="1136.0">#WorkTimeTrackingAPI</node>
+            <node x="3292.5352272727273" y="77.0">nokogiri</node>
+            <node x="2238.821590909091" y="388.0">sprockets</node>
+            <node x="1119.5534925600696" y="789.0">rails</node>
+            <node x="1556.5360921972774" y="515.0">actionpack</node>
+            <node x="34.4818181818182" y="0.0">thread_safe</node>
+            <node x="1905.8860921972773" y="515.0">thor</node>
+            <node x="195.9636363636364" y="77.0">minitest</node>
+            <node x="731.9636363636365" y="662.0">activestorage</node>
+            <node x="3398.5352272727273" y="77.0">crass</node>
+            <node x="67.9636363636364" y="174.0">tzinfo-data</node>
+            <node x="1218.8439393939393" y="174.0">activesupport</node>
+            <node x="1566.2111274690228" y="291.0">rails-dom-testing</node>
+            <node x="617.9636363636365" y="388.0">mini_mime</node>
+            <node x="1938.321590909091" y="662.0">actioncable</node>
+            <node x="3484.5352272727273" y="662.0">msgpack</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="actioncable" target="websocket-driver">
+              <point x="0.0" y="-13.5" />
+              <point x="1991.821590909091" y="642.0" />
+              <point x="2019.3860921972773" y="642.0" />
+              <point x="-35.5" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="rspec-expectations">
+              <point x="30.57142857142844" y="-13.5" />
+              <point x="2739.8930194805193" y="759.0" />
+              <point x="2929.321590909091" y="759.0" />
+              <point x="-39.0" y="13.5" />
+            </edge>
+            <edge source="actionmailer" target="rails-dom-testing">
+              <point x="0.0" y="-13.5" />
+              <point x="1306.5939393939393" y="562.0" />
+              <point x="1228.0939393939393" y="562.0" />
+              <point x="1228.0939393939393" y="348.0" />
+              <point x="1584.8361274690228" y="348.0" />
+              <point x="-55.875" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="sprockets">
+              <point x="20.74545454545455" y="-13.5" />
+              <point x="1689.0422715442435" y="916.0" />
+              <point x="2353.8111274690227" y="916.0" />
+              <point x="2353.8111274690227" y="475.0" />
+              <point x="2308.571590909091" y="475.0" />
+              <point x="23.25" y="13.5" />
+            </edge>
+            <edge source="actionview" target="rails-dom-testing">
+              <point x="20.0" y="-13.5" />
+              <point x="1371.7439393939394" y="358.0" />
+              <point x="1622.0861274690228" y="358.0" />
+              <point x="-18.625" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="rspec-mocks">
+              <point x="45.85714285714266" y="-13.5" />
+              <point x="2755.1787337662336" y="769.0" />
+              <point x="3093.071590909091" y="769.0" />
+              <point x="-26.75" y="13.5" />
+            </edge>
+            <edge source="rspec-core" target="rspec-support">
+              <point x="0.0" y="-13.5" />
+              <point x="2819.321590909091" y="642.0" />
+              <point x="2855.621590909091" y="642.0" />
+              <point x="-24.199999999999818" y="13.5" />
+            </edge>
+            <edge source="tzinfo-data" target="tzinfo">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="nokogiri" target="mini_portile2">
+              <point x="0.0" y="-13.5" />
+              <point x="3335.5352272727273" y="57.0" />
+              <point x="3374.5352272727273" y="57.0" />
+              <point x="-30.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="arel">
+              <point x="-56.30909090909108" y="-13.5" />
+              <point x="1611.9877260896978" y="1036.0" />
+              <point x="355.4636363636364" y="1036.0" />
+              <point x="-14.5" y="13.5" />
+            </edge>
+            <edge source="rails" target="actionmailer">
+              <point x="8.125" y="-13.5" />
+              <point x="1160.1784925600696" y="729.0" />
+              <point x="1278.0939393939393" y="729.0" />
+              <point x="-28.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="tzinfo">
+              <point x="-74.09090909090924" y="-13.5" />
+              <point x="1594.2059079078797" y="1096.0" />
+              <point x="57.4636363636364" y="1096.0" />
+              <point x="57.4636363636364" y="154.0" />
+              <point x="97.4636363636364" y="154.0" />
+              <point x="-24.0" y="13.5" />
+            </edge>
+            <edge source="actionview" target="activesupport">
+              <point x="-20.0" y="-13.5" />
+              <point x="1331.7439393939394" y="271.0" />
+              <point x="1284.385606060606" y="271.0" />
+              <point x="5.0416666666667425" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="actionview">
+              <point x="-14.818181818181756" y="-13.5" />
+              <point x="1653.4786351806072" y="896.0" />
+              <point x="1374.0939393939393" y="896.0" />
+              <point x="1374.0939393939393" y="495.0" />
+              <point x="1364.2439393939394" y="495.0" />
+              <point x="12.5" y="13.5" />
+            </edge>
+            <edge source="rails-dom-testing" target="nokogiri">
+              <point x="37.25" y="-13.5" />
+              <point x="1677.9611274690228" y="154.0" />
+              <point x="3306.868560606061" y="154.0" />
+              <point x="-28.666666666666515" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="rspec-core">
+              <point x="15.28571428571422" y="-13.5" />
+              <point x="2724.607305194805" y="749.0" />
+              <point x="2794.321590909091" y="749.0" />
+              <point x="-25.0" y="13.5" />
+            </edge>
+            <edge source="actionview" target="rails-html-sanitizer">
+              <point x="40.0" y="-13.5" />
+              <point x="1391.7439393939394" y="368.0" />
+              <point x="2065.1549242424244" y="368.0" />
+              <point x="-56.66666666666674" y="13.5" />
+            </edge>
+            <edge source="sprockets-rails" target="actionpack">
+              <point x="0.0" y="-13.5" />
+              <point x="1535.1397727272729" y="632.0" />
+              <point x="1587.7860921972774" y="632.0" />
+              <point x="-18.75" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="activesupport">
+              <point x="-15.28571428571422" y="-13.5" />
+              <point x="2694.0358766233767" y="769.0" />
+              <point x="2696.1787337662336" y="769.0" />
+              <point x="2696.1787337662336" y="368.0" />
+              <point x="3377.1602272727273" y="368.0" />
+              <point x="3377.1602272727273" y="221.0" />
+              <point x="1334.8022727272728" y="221.0" />
+              <point x="55.458333333333485" y="13.5" />
+            </edge>
+            <edge source="i18n" target="concurrent-ruby">
+              <point x="0.0" y="-13.5" />
+              <point x="504.7823395902351" y="57.0" />
+              <point x="886.0704545454545" y="57.0" />
+              <point x="-16.875" y="13.5" />
+            </edge>
+            <edge source="rails" target="actionpack">
+              <point x="18.958333333333258" y="-13.5" />
+              <point x="1171.0118258934028" y="749.0" />
+              <point x="1613.1397727272729" y="749.0" />
+              <point x="1613.1397727272729" y="632.0" />
+              <point x="1600.2860921972774" y="632.0" />
+              <point x="-6.25" y="13.5" />
+            </edge>
+            <edge source="actionpack" target="rack-test">
+              <point x="41.66666666666674" y="-13.5" />
+              <point x="1648.2027588639442" y="485.0" />
+              <point x="2375.071590909091" y="485.0" />
+              <point x="-23.25" y="13.5" />
+            </edge>
+            <edge source="railties" target="activesupport">
+              <point x="17.200000000000045" y="-13.5" />
+              <point x="1869.821590909091" y="622.0" />
+              <point x="1895.3860921972773" y="622.0" />
+              <point x="1895.3860921972773" y="455.0" />
+              <point x="2217.321590909091" y="455.0" />
+              <point x="2217.321590909091" y="231.0" />
+              <point x="1324.7189393939393" y="231.0" />
+              <point x="45.375" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="bundler">
+              <point x="-23.709090909090946" y="-13.5" />
+              <point x="1644.587726089698" y="926.0" />
+              <point x="975.6772727272729" y="926.0" />
+              <point x="-19.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="globalid">
+              <point x="-35.563636363636306" y="-13.5" />
+              <point x="1632.7331806351526" y="966.0" />
+              <point x="863.4636363636365" y="966.0" />
+              <point x="-21.5" y="13.5" />
+            </edge>
+            <edge source="rails" target="bundler">
+              <point x="-24.375" y="-13.5" />
+              <point x="1127.6784925600696" y="759.0" />
+              <point x="1015.1772727272729" y="759.0" />
+              <point x="19.75" y="13.5" />
+            </edge>
+            <edge source="activejob" target="activesupport">
+              <point x="23.25" y="-13.5" />
+              <point x="1131.0939393939393" y="261.0" />
+              <point x="1264.2189393939393" y="261.0" />
+              <point x="-15.125" y="13.5" />
+            </edge>
+            <edge source="activesupport" target="minitest">
+              <point x="-15.125" y="-13.5" />
+              <point x="1264.2189393939393" y="134.0" />
+              <point x="260.4636363636364" y="134.0" />
+              <point x="21.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rails-html-sanitizer">
+              <point x="29.63636363636374" y="-13.5" />
+              <point x="1697.9331806351527" y="946.0" />
+              <point x="2645.321590909091" y="946.0" />
+              <point x="2645.321590909091" y="348.0" />
+              <point x="2178.488257575758" y="348.0" />
+              <point x="56.66666666666674" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="method_source">
+              <point x="-2.9636363636363967" y="-13.5" />
+              <point x="1665.3331806351525" y="836.0" />
+              <point x="1673.871590909091" y="836.0" />
+              <point x="1673.871590909091" y="642.0" />
+              <point x="1707.7860921972774" y="642.0" />
+              <point x="-30.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="bcrypt">
+              <point x="59.27272727272725" y="-13.5" />
+              <point x="1727.5695442715162" y="1046.0" />
+              <point x="3289.0352272727273" y="1046.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="marcel" target="mimemagic">
+              <point x="0.0" y="-13.5" />
+              <point x="23.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rspec-rails">
+              <point x="32.59999999999991" y="-13.5" />
+              <point x="1700.8968169987888" y="956.0" />
+              <point x="2709.321590909091" y="956.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="actionview" target="builder">
+              <point x="0.0" y="-13.5" />
+              <point x="1351.7439393939394" y="338.0" />
+              <point x="1372.7439393939394" y="338.0" />
+              <point x="-19.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="crass">
+              <point x="68.16363636363644" y="-13.5" />
+              <point x="1736.4604533624254" y="1076.0" />
+              <point x="3445.2852272727273" y="1076.0" />
+              <point x="3445.2852272727273" y="154.0" />
+              <point x="3447.2852272727273" y="154.0" />
+              <point x="16.25" y="13.5" />
+            </edge>
+            <edge source="actionmailer" target="actionpack">
+              <point x="45.59999999999991" y="-13.5" />
+              <point x="1352.1939393939392" y="622.0" />
+              <point x="1575.2860921972774" y="622.0" />
+              <point x="-31.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rails-dom-testing">
+              <point x="14.818181818181756" y="-13.5" />
+              <point x="1683.1149988169707" y="896.0" />
+              <point x="2136.3860921972773" y="896.0" />
+              <point x="2136.3860921972773" y="435.0" />
+              <point x="2110.821590909091" y="435.0" />
+              <point x="2110.821590909091" y="358.0" />
+              <point x="1696.5861274690228" y="358.0" />
+              <point x="55.875" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rails">
+              <point x="-20.74545454545455" y="-13.5" />
+              <point x="1647.5513624533344" y="916.0" />
+              <point x="1152.0534925600696" y="916.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="railties">
+              <point x="2.9636363636363967" y="-13.5" />
+              <point x="1671.2604533624253" y="856.0" />
+              <point x="1852.621590909091" y="856.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="rails" target="actionview">
+              <point x="2.7083333333332575" y="-13.5" />
+              <point x="1154.7618258934028" y="719.0" />
+              <point x="1239.0939393939393" y="719.0" />
+              <point x="1239.0939393939393" y="495.0" />
+              <point x="1314.2439393939394" y="495.0" />
+              <point x="-37.5" y="13.5" />
+            </edge>
+            <edge source="rspec-mocks" target="diff-lcs">
+              <point x="26.75" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="actionview" target="erubi">
+              <point x="-40.0" y="-13.5" />
+              <point x="1311.7439393939394" y="338.0" />
+              <point x="1190.3439393939393" y="338.0" />
+              <point x="16.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="actionmailer">
+              <point x="-17.781818181818153" y="-13.5" />
+              <point x="1650.5149988169708" y="906.0" />
+              <point x="1335.0939393939393" y="906.0" />
+              <point x="28.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="concurrent-ruby">
+              <point x="-68.16363636363644" y="-13.5" />
+              <point x="1600.1331806351525" y="1076.0" />
+              <point x="185.4636363636364" y="1076.0" />
+              <point x="185.4636363636364" y="47.0" />
+              <point x="852.3204545454545" y="47.0" />
+              <point x="-50.625" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="thor">
+              <point x="5.927272727272793" y="-13.5" />
+              <point x="1674.2240897260617" y="866.0" />
+              <point x="1923.821590909091" y="866.0" />
+              <point x="1923.821590909091" y="642.0" />
+              <point x="1949.3860921972773" y="642.0" />
+              <point x="14.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="puma">
+              <point x="80.0181818181818" y="-13.5" />
+              <point x="1748.3149988169707" y="1116.0" />
+              <point x="3642.7852272727273" y="1116.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="rails" target="actioncable">
+              <point x="29.791666666666742" y="-13.5" />
+              <point x="1181.8451592267363" y="769.0" />
+              <point x="1965.071590909091" y="769.0" />
+              <point x="-26.75" y="13.5" />
+            </edge>
+            <edge source="sprockets" target="concurrent-ruby">
+              <point x="-23.25" y="-13.5" />
+              <point x="2262.071590909091" y="47.0" />
+              <point x="953.5704545454545" y="47.0" />
+              <point x="50.625" y="13.5" />
+            </edge>
+            <edge source="rails" target="sprockets-rails">
+              <point x="13.541666666666742" y="-13.5" />
+              <point x="1165.5951592267363" y="739.0" />
+              <point x="1501.3897727272729" y="739.0" />
+              <point x="-33.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="actioncable">
+              <point x="8.89090909090919" y="-13.5" />
+              <point x="1677.1877260896981" y="876.0" />
+              <point x="2018.571590909091" y="876.0" />
+              <point x="26.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="nokogiri">
+              <point x="62.23636363636365" y="-13.5" />
+              <point x="1730.5331806351526" y="1056.0" />
+              <point x="3335.5352272727273" y="1056.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="mail" target="mini_mime">
+              <point x="0.0" y="-13.5" />
+              <point x="902.9636363636365" y="495.0" />
+              <point x="687.7136363636365" y="495.0" />
+              <point x="23.25" y="13.5" />
+            </edge>
+            <edge source="activejob" target="globalid">
+              <point x="-23.25" y="-13.5" />
+              <point x="1084.5939393939393" y="475.0" />
+              <point x="906.4636363636365" y="475.0" />
+              <point x="21.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="minitest">
+              <point x="-65.20000000000005" y="-13.5" />
+              <point x="1603.0968169987889" y="1066.0" />
+              <point x="217.4636363636364" y="1066.0" />
+              <point x="-21.5" y="13.5" />
+            </edge>
+            <edge source="activemodel" target="activesupport">
+              <point x="0.0" y="-13.5" />
+              <point x="544.4636363636364" y="231.0" />
+              <point x="1233.9689393939393" y="231.0" />
+              <point x="-45.375" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="erubi">
+              <point x="-29.63636363636374" y="-13.5" />
+              <point x="1638.6604533624252" y="946.0" />
+              <point x="942.4636363636365" y="946.0" />
+              <point x="942.4636363636365" y="368.0" />
+              <point x="1157.8439393939393" y="368.0" />
+              <point x="-16.25" y="13.5" />
+            </edge>
+            <edge source="railties" target="method_source">
+              <point x="-17.200000000000045" y="-13.5" />
+              <point x="1835.4215909090908" y="602.0" />
+              <point x="1768.2860921972774" y="602.0" />
+              <point x="30.25" y="13.5" />
+            </edge>
+            <edge source="rspec-expectations" target="diff-lcs">
+              <point x="39.0" y="-13.5" />
+              <point x="3007.321590909091" y="642.0" />
+              <point x="3117.9049242424244" y="642.0" />
+              <point x="-28.666666666666515" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="railties">
+              <point x="-45.85714285714266" y="-13.5" />
+              <point x="2663.4644480519482" y="759.0" />
+              <point x="1881.2882575757576" y="759.0" />
+              <point x="28.666666666666742" y="13.5" />
+            </edge>
+            <edge source="tzinfo" target="thread_safe">
+              <point x="0.0" y="-13.5" />
+              <point x="121.4636363636364" y="57.0" />
+              <point x="114.7318181818182" y="57.0" />
+              <point x="26.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="mini_portile2">
+              <point x="71.12727272727284" y="-13.5" />
+              <point x="1739.4240897260618" y="1086.0" />
+              <point x="3474.0352272727273" y="1086.0" />
+              <point x="3474.0352272727273" y="57.0" />
+              <point x="3435.0352272727273" y="57.0" />
+              <point x="30.25" y="13.5" />
+            </edge>
+            <edge source="actionpack" target="rails-html-sanitizer">
+              <point x="8.333333333333258" y="-13.5" />
+              <point x="1614.8694255306107" y="445.0" />
+              <point x="2121.821590909091" y="445.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="activerecord">
+              <point x="-50.38181818181829" y="-13.5" />
+              <point x="1617.9149988169706" y="1016.0" />
+              <point x="476.9636363636364" y="1016.0" />
+              <point x="476.9636363636364" y="642.0" />
+              <point x="438.9636363636364" y="642.0" />
+              <point x="-38.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="builder">
+              <point x="-11.854545454545587" y="-13.5" />
+              <point x="1656.4422715442433" y="886.0" />
+              <point x="1412.2439393939394" y="886.0" />
+              <point x="19.75" y="13.5" />
+            </edge>
+            <edge source="rails-dom-testing" target="activesupport">
+              <point x="-37.25" y="-13.5" />
+              <point x="1603.4611274690228" y="241.0" />
+              <point x="1314.635606060606" y="241.0" />
+              <point x="35.29166666666674" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rspec-core">
+              <point x="38.5272727272727" y="-13.5" />
+              <point x="1706.8240897260616" y="976.0" />
+              <point x="2844.321590909091" y="976.0" />
+              <point x="25.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="actionpack">
+              <point x="-5.927272727272793" y="-13.5" />
+              <point x="1662.3695442715161" y="866.0" />
+              <point x="1624.1397727272729" y="866.0" />
+              <point x="1624.1397727272729" y="622.0" />
+              <point x="1612.7860921972774" y="622.0" />
+              <point x="6.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="activemodel">
+              <point x="-47.41818181818189" y="-13.5" />
+              <point x="1620.878635180607" y="1006.0" />
+              <point x="544.4636363636364" y="1006.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="rack-test" target="rack">
+              <point x="0.0" y="-13.5" />
+              <point x="7.25" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="rspec-support">
+              <point x="0.0" y="-13.5" />
+              <point x="2709.321590909091" y="769.0" />
+              <point x="2707.1787337662336" y="769.0" />
+              <point x="2707.1787337662336" y="632.0" />
+              <point x="2831.421590909091" y="632.0" />
+              <point x="-48.40000000000009" y="13.5" />
+            </edge>
+            <edge source="activerecord" target="arel">
+              <point x="-38.0" y="-13.5" />
+              <point x="438.9636363636364" y="495.0" />
+              <point x="384.4636363636364" y="495.0" />
+              <point x="14.5" y="13.5" />
+            </edge>
+            <edge source="rails" target="activestorage">
+              <point x="-29.791666666666742" y="-13.5" />
+              <point x="1122.2618258934028" y="769.0" />
+              <point x="822.7136363636365" y="769.0" />
+              <point x="30.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="jwt">
+              <point x="35.563636363636306" y="-13.5" />
+              <point x="1703.8604533624252" y="966.0" />
+              <point x="2808.321590909091" y="966.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="activesupport" target="concurrent-ruby">
+              <point x="45.375" y="-13.5" />
+              <point x="1324.7189393939393" y="57.0" />
+              <point x="919.8204545454545" y="57.0" />
+              <point x="16.875" y="13.5" />
+            </edge>
+            <edge source="loofah" target="nokogiri">
+              <point x="-18.0" y="-13.5" />
+              <point x="3380.7852272727273" y="154.0" />
+              <point x="3364.201893939394" y="154.0" />
+              <point x="28.666666666666515" y="13.5" />
+            </edge>
+            <edge source="actionpack" target="rails-dom-testing">
+              <point x="-8.333333333333258" y="-13.5" />
+              <point x="1598.2027588639442" y="435.0" />
+              <point x="1641.681925530611" y="435.0" />
+              <point x="1641.681925530611" y="358.0" />
+              <point x="1659.3361274690228" y="358.0" />
+              <point x="18.625" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="mimemagic">
+              <point x="-62.23636363636365" y="-13.5" />
+              <point x="1606.0604533624253" y="1056.0" />
+              <point x="251.2136363636364" y="1056.0" />
+              <point x="-23.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="sprockets-rails">
+              <point x="-8.89090909090919" y="-13.5" />
+              <point x="1659.4059079078797" y="876.0" />
+              <point x="1568.8897727272729" y="876.0" />
+              <point x="33.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="i18n">
+              <point x="-53.345454545454686" y="-13.5" />
+              <point x="1614.9513624533342" y="1026.0" />
+              <point x="409.4636363636364" y="1026.0" />
+              <point x="409.4636363636364" y="154.0" />
+              <point x="490.2823395902351" y="154.0" />
+              <point x="-14.5" y="13.5" />
+            </edge>
+            <edge source="websocket-driver" target="websocket-extensions">
+              <point x="0.0" y="-13.5" />
+              <point x="2054.8860921972773" y="495.0" />
+              <point x="2507.321590909091" y="495.0" />
+              <point x="-42.5" y="13.5" />
+            </edge>
+            <edge source="bootsnap" target="msgpack">
+              <point x="0.0" y="-13.5" />
+              <point x="3550.7852272727273" y="769.0" />
+              <point x="3543.7852272727273" y="769.0" />
+              <point x="19.75" y="13.5" />
+            </edge>
+            <edge source="activestorage" target="actionpack">
+              <point x="40.33333333333337" y="-13.5" />
+              <point x="832.7969696969699" y="612.0" />
+              <point x="1562.7860921972774" y="612.0" />
+              <point x="-43.75" y="13.5" />
+            </edge>
+            <edge source="rails" target="railties">
+              <point x="24.375" y="-13.5" />
+              <point x="1176.4284925600696" y="759.0" />
+              <point x="1823.954924242424" y="759.0" />
+              <point x="-28.666666666666742" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="websocket-extensions">
+              <point x="26.672727272727343" y="-13.5" />
+              <point x="1694.9695442715163" y="936.0" />
+              <point x="2592.321590909091" y="936.0" />
+              <point x="42.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rspec-expectations">
+              <point x="44.454545454545496" y="-13.5" />
+              <point x="1712.7513624533344" y="996.0" />
+              <point x="3007.321590909091" y="996.0" />
+              <point x="39.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="msgpack">
+              <point x="74.09090909090901" y="-13.5" />
+              <point x="1742.387726089698" y="1096.0" />
+              <point x="3497.2852272727273" y="1096.0" />
+              <point x="3497.2852272727273" y="769.0" />
+              <point x="3504.2852272727273" y="769.0" />
+              <point x="-19.75" y="13.5" />
+            </edge>
+            <edge source="actionpack" target="activesupport">
+              <point x="-25.0" y="-13.5" />
+              <point x="1581.5360921972774" y="485.0" />
+              <point x="1555.7111274690228" y="485.0" />
+              <point x="1555.7111274690228" y="251.0" />
+              <point x="1304.5522727272726" y="251.0" />
+              <point x="25.208333333333258" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="bootsnap">
+              <point x="77.0545454545454" y="-13.5" />
+              <point x="1745.3513624533343" y="1106.0" />
+              <point x="3550.7852272727273" y="1106.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="activestorage" target="marcel">
+              <point x="-40.33333333333337" y="-13.5" />
+              <point x="752.1303030303031" y="632.0" />
+              <point x="315.7136363636364" y="632.0" />
+              <point x="18.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="diff-lcs">
+              <point x="53.34545454545446" y="-13.5" />
+              <point x="1721.6422715442434" y="1026.0" />
+              <point x="3239.571590909091" y="1026.0" />
+              <point x="3239.571590909091" y="642.0" />
+              <point x="3175.2382575757574" y="642.0" />
+              <point x="28.666666666666515" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rspec-mocks">
+              <point x="47.41818181818189" y="-13.5" />
+              <point x="1715.7149988169708" y="1006.0" />
+              <point x="3146.571590909091" y="1006.0" />
+              <point x="26.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="activejob">
+              <point x="-26.672727272727343" y="-13.5" />
+              <point x="1641.6240897260616" y="936.0" />
+              <point x="945.4272727272729" y="936.0" />
+              <point x="945.4272727272729" y="602.0" />
+              <point x="1076.8439393939393" y="602.0" />
+              <point x="-31.0" y="13.5" />
+            </edge>
+            <edge source="sprockets" target="rack">
+              <point x="23.25" y="-13.5" />
+              <point x="2308.571590909091" y="368.0" />
+              <point x="2383.821590909091" y="368.0" />
+              <point x="-7.25" y="13.5" />
+            </edge>
+            <edge source="actioncable" target="nio4r">
+              <point x="35.66666666666674" y="-13.5" />
+              <point x="2027.4882575757579" y="642.0" />
+              <point x="2287.128149043936" y="642.0" />
+              <point x="-16.25" y="13.5" />
+            </edge>
+            <edge source="rails" target="activejob">
+              <point x="-8.125" y="-13.5" />
+              <point x="1143.9284925600696" y="729.0" />
+              <point x="1107.8439393939393" y="729.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="railties" target="rake">
+              <point x="0.0" y="-13.5" />
+              <point x="1852.621590909091" y="642.0" />
+              <point x="1862.0360921972774" y="642.0" />
+              <point x="14.5" y="13.5" />
+            </edge>
+            <edge source="rspec-mocks" target="rspec-support">
+              <point x="-26.75" y="-13.5" />
+              <point x="3093.071590909091" y="632.0" />
+              <point x="2928.221590909091" y="632.0" />
+              <point x="48.40000000000009" y="13.5" />
+            </edge>
+            <edge source="actionmailer" target="actionview">
+              <point x="22.799999999999955" y="-13.5" />
+              <point x="1329.3939393939395" y="495.0" />
+              <point x="1339.2439393939394" y="495.0" />
+              <point x="-12.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="mini_mime">
+              <point x="-44.454545454545496" y="-13.5" />
+              <point x="1623.8422715442434" y="996.0" />
+              <point x="641.2136363636365" y="996.0" />
+              <point x="-23.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="nio4r">
+              <point x="17.781818181818153" y="-13.5" />
+              <point x="1686.078635180607" y="906.0" />
+              <point x="2319.628149043936" y="906.0" />
+              <point x="16.25" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="activesupport">
+              <point x="-41.4909090909091" y="-13.5" />
+              <point x="1626.8059079078798" y="986.0" />
+              <point x="721.4636363636365" y="986.0" />
+              <point x="721.4636363636365" y="241.0" />
+              <point x="1244.0522727272728" y="241.0" />
+              <point x="-35.29166666666663" y="13.5" />
+            </edge>
+            <edge source="rails" target="activerecord">
+              <point x="-18.958333333333258" y="-13.5" />
+              <point x="1133.0951592267363" y="749.0" />
+              <point x="1045.4272727272728" y="749.0" />
+              <point x="1045.4272727272728" y="592.0" />
+              <point x="514.9636363636364" y="592.0" />
+              <point x="38.0" y="13.5" />
+            </edge>
+            <edge source="globalid" target="activesupport">
+              <point x="0.0" y="-13.5" />
+              <point x="884.9636363636365" y="251.0" />
+              <point x="1254.1356060606058" y="251.0" />
+              <point x="-25.20833333333337" y="13.5" />
+            </edge>
+            <edge source="sprockets-rails" target="sprockets">
+              <point x="45.0" y="-13.5" />
+              <point x="1580.1397727272729" y="642.0" />
+              <point x="1667.0360921972774" y="642.0" />
+              <point x="1667.0360921972774" y="475.0" />
+              <point x="2262.071590909091" y="475.0" />
+              <point x="-23.25" y="13.5" />
+            </edge>
+            <edge source="rspec-expectations" target="rspec-support">
+              <point x="-39.0" y="-13.5" />
+              <point x="2929.321590909091" y="642.0" />
+              <point x="2904.0215909090907" y="642.0" />
+              <point x="24.199999999999818" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="marcel">
+              <point x="-59.27272727272748" y="-13.5" />
+              <point x="1609.0240897260614" y="1046.0" />
+              <point x="279.7136363636364" y="1046.0" />
+              <point x="-18.0" y="13.5" />
+            </edge>
+            <edge source="rails" target="activemodel">
+              <point x="-13.541666666666742" y="-13.5" />
+              <point x="1138.5118258934028" y="739.0" />
+              <point x="1050.8439393939393" y="739.0" />
+              <point x="1050.8439393939393" y="485.0" />
+              <point x="580.1303030303029" y="485.0" />
+              <point x="35.666666666666515" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="thread_safe">
+              <point x="-77.05454545454563" y="-13.5" />
+              <point x="1591.2422715442433" y="1106.0" />
+              <point x="54.5" y="1106.0" />
+              <point x="54.5" y="57.0" />
+              <point x="61.2318181818182" y="57.0" />
+              <point x="-26.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="activestorage">
+              <point x="-38.5272727272727" y="-13.5" />
+              <point x="1629.7695442715162" y="976.0" />
+              <point x="762.2136363636365" y="976.0" />
+              <point x="-30.25" y="13.5" />
+            </edge>
+            <edge source="railties" target="thor">
+              <point x="34.40000000000009" y="-13.5" />
+              <point x="1887.0215909090912" y="632.0" />
+              <point x="1920.3860921972773" y="632.0" />
+              <point x="-14.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rake">
+              <point x="0.0" y="-13.5" />
+              <point x="1668.296816998789" y="846.0" />
+              <point x="1799.121590909091" y="846.0" />
+              <point x="1799.121590909091" y="642.0" />
+              <point x="1833.0360921972774" y="642.0" />
+              <point x="-14.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="loofah">
+              <point x="65.20000000000005" y="-13.5" />
+              <point x="1733.496816998789" y="1066.0" />
+              <point x="3416.7852272727273" y="1066.0" />
+              <point x="18.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="websocket-driver">
+              <point x="11.854545454545587" y="-13.5" />
+              <point x="1680.1513624533345" y="886.0" />
+              <point x="2092.3860921972773" y="886.0" />
+              <point x="2092.3860921972773" y="632.0" />
+              <point x="2090.3860921972773" y="632.0" />
+              <point x="35.5" y="13.5" />
+            </edge>
+            <edge source="actionpack" target="actionview">
+              <point x="-41.66666666666674" y="-13.5" />
+              <point x="1564.8694255306107" y="495.0" />
+              <point x="1389.2439393939394" y="495.0" />
+              <point x="37.5" y="13.5" />
+            </edge>
+            <edge source="activesupport" target="tzinfo">
+              <point x="-45.375" y="-13.5" />
+              <point x="1233.9689393939393" y="144.0" />
+              <point x="145.4636363636364" y="144.0" />
+              <point x="24.0" y="13.5" />
+            </edge>
+            <edge source="activesupport" target="i18n">
+              <point x="15.125" y="-13.5" />
+              <point x="1294.4689393939393" y="124.0" />
+              <point x="519.2823395902351" y="124.0" />
+              <point x="14.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rack">
+              <point x="56.309090909090855" y="-13.5" />
+              <point x="1724.6059079078798" y="1036.0" />
+              <point x="3242.5352272727273" y="1036.0" />
+              <point x="3242.5352272727273" y="338.0" />
+              <point x="2412.821590909091" y="338.0" />
+              <point x="21.75" y="13.5" />
+            </edge>
+            <edge source="actionmailer" target="mail">
+              <point x="-45.59999999999991" y="-13.5" />
+              <point x="1260.9939393939394" y="582.0" />
+              <point x="917.4636363636365" y="582.0" />
+              <point x="14.5" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="pg">
+              <point x="-80.01818181818203" y="-13.5" />
+              <point x="1588.278635180607" y="1116.0" />
+              <point x="22.0" y="1116.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="byebug">
+              <point x="50.38181818181829" y="-13.5" />
+              <point x="1718.6786351806072" y="1016.0" />
+              <point x="3193.071590909091" y="1016.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="actionmailer" target="activejob">
+              <point x="-22.799999999999955" y="-13.5" />
+              <point x="1283.7939393939396" y="572.0" />
+              <point x="1138.8439393939393" y="572.0" />
+              <point x="31.0" y="13.5" />
+            </edge>
+            <edge source="actioncable" target="actionpack">
+              <point x="-35.66666666666674" y="-13.5" />
+              <point x="1956.1549242424244" y="592.0" />
+              <point x="1637.7860921972774" y="592.0" />
+              <point x="31.25" y="13.5" />
+            </edge>
+            <edge source="rails-html-sanitizer" target="loofah">
+              <point x="0.0" y="-13.5" />
+              <point x="2121.821590909091" y="271.0" />
+              <point x="3380.7852272727273" y="271.0" />
+              <point x="-18.0" y="13.5" />
+            </edge>
+            <edge source="sprockets-rails" target="activesupport">
+              <point x="-45.0" y="-13.5" />
+              <point x="1490.1397727272729" y="602.0" />
+              <point x="1498.544460802356" y="602.0" />
+              <point x="1498.544460802356" y="261.0" />
+              <point x="1294.4689393939393" y="261.0" />
+              <point x="15.125" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rack-test">
+              <point x="23.709090909090946" y="-13.5" />
+              <point x="1692.0059079078799" y="926.0" />
+              <point x="2421.571590909091" y="926.0" />
+              <point x="23.25" y="13.5" />
+            </edge>
+            <edge source="actionpack" target="rack">
+              <point x="25.0" y="-13.5" />
+              <point x="1631.5360921972774" y="465.0" />
+              <point x="2228.321590909091" y="465.0" />
+              <point x="2228.321590909091" y="358.0" />
+              <point x="2369.321590909091" y="358.0" />
+              <point x="-21.75" y="13.5" />
+            </edge>
+            <edge source="rspec-rails" target="actionpack">
+              <point x="-30.57142857142844" y="-13.5" />
+              <point x="2678.7501623376625" y="749.0" />
+              <point x="2055.821590909091" y="749.0" />
+              <point x="2055.821590909091" y="582.0" />
+              <point x="1650.2860921972774" y="582.0" />
+              <point x="43.75" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="rspec-support">
+              <point x="41.4909090909091" y="-13.5" />
+              <point x="1709.787726089698" y="986.0" />
+              <point x="2879.821590909091" y="986.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="loofah" target="crass">
+              <point x="18.0" y="-13.5" />
+              <point x="3416.7852272727273" y="154.0" />
+              <point x="3414.7852272727273" y="154.0" />
+              <point x="-16.25" y="13.5" />
+            </edge>
+            <edge source="activestorage" target="activerecord">
+              <point x="0.0" y="-13.5" />
+              <point x="792.4636363636365" y="622.0" />
+              <point x="476.9636363636364" y="622.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="mail">
+              <point x="-32.600000000000136" y="-13.5" />
+              <point x="1635.6968169987888" y="956.0" />
+              <point x="888.4636363636365" y="956.0" />
+              <point x="-14.5" y="13.5" />
+            </edge>
+            <edge source="rails" target="activesupport">
+              <point x="-2.7083333333332575" y="-13.5" />
+              <point x="1149.3451592267363" y="709.0" />
+              <point x="1217.0939393939393" y="709.0" />
+              <point x="1217.0939393939393" y="271.0" />
+              <point x="1274.3022727272726" y="271.0" />
+              <point x="-5.0416666666667425" y="13.5" />
+            </edge>
+            <edge source="activerecord" target="activemodel">
+              <point x="38.0" y="-13.5" />
+              <point x="514.9636363636364" y="495.0" />
+              <point x="508.79696969696965" y="495.0" />
+              <point x="-35.666666666666686" y="13.5" />
+            </edge>
+            <edge source="#WorkTimeTrackingAPI" target="tzinfo-data">
+              <point x="-71.12727272727284" y="-13.5" />
+              <point x="1597.169544271516" y="1086.0" />
+              <point x="121.4636363636364" y="1086.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="railties" target="actionpack">
+              <point x="-34.40000000000009" y="-13.5" />
+              <point x="1818.221590909091" y="612.0" />
+              <point x="1625.2860921972774" y="612.0" />
+              <point x="18.75" y="13.5" />
+            </edge>
+            <edge source="activerecord" target="activesupport">
+              <point x="0.0" y="-13.5" />
+              <point x="476.9636363636364" y="221.0" />
+              <point x="1223.8856060606058" y="221.0" />
+              <point x="-55.45833333333337" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.14462187405845134" x="1957.0" y="777.0" />
+          <SelectedNodes>
+            <node>mimemagic</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/json_web_token.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/modulu.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user_project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/customer_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
