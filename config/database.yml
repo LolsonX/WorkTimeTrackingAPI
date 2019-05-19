@@ -83,6 +83,6 @@ test:
 #
 production:
   <<: *default
-  database: WorkTimeTrackingAPI_production
-  username: WorkTimeTrackingAPI
-  password: <%= ENV['WORKTIMETRACKINGAPI_DATABASE_PASSWORD'] %>
+  database: WorkTimeTrackingAPI_development
+  username: oibi
+  password: oibi
