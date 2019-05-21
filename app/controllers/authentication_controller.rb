@@ -8,9 +8,13 @@ class AuthenticationController < ApplicationController
       token = JsonWebToken.encode(user_id: @user.id)
       time = Time.now + 24.hours.to_i
       render json: { token: token, exp: time.strftime("%m-%d-%Y %H:%M"),
-                     username: @user.username }, status: :ok
+                     username: @user.username },
+             status: :ok,
+             key_transform: :camel_lower
     else
-      render json: { error: 'unauthorized' }, status: :unauthorized
+      render json: { error: 'unauthorized' },
+             status: :unauthorized,
+             key_transform: :camel_lower
     end
   end
 

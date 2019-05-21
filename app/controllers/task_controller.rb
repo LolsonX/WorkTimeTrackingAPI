@@ -1,7 +1,9 @@
 class TaskController < ApplicationController
   def index
     @tasks = Task.all
-    render json: @tasks, status: 200
+    render json: @tasks,
+           status: 200,
+           key_transform: :camel_lower
   end
 
   def show
@@ -13,19 +15,35 @@ class TaskController < ApplicationController
   end
 
   def show_user_tasks
-    @tasks = Task.where user_id: task_params[:user_id]
+    @task = Task.where user_id: task_params[:user_id]
+    render json: @task,
+           status: :ok,
+           key_transform: :camel_lower
+    true
   end
 
   def show_project_tasks
-    @tasks = Task.where project_id: task_params[:project_id]
+    @task = Task.where project_id: task_params[:project_id]
+    render json: @task,
+           status: :ok,
+           key_transform: :camel_lower
+    true
   end
 
   def show_module_tasks
-    @tasks = Task.where module_id: task_params[:module_id]
+    @task = Task.where module_id: task_params[:module_id]
+    render json: @task,
+           status: :ok,
+           key_transform: :camel_lower
+    true
   end
 
   def show_task
-    @tasks = Task.find_by id: task_params[:id]
+    @task = Task.find_by id: task_params[:id]
+    render json: @task,
+           status: :ok,
+           key_transform: :camel_lower
+    true
   end
 
   def create
