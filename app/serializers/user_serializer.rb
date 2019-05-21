@@ -4,6 +4,11 @@ class UserSerializer < ActiveModel::Serializer
              :last_name,
              :email,
              :phone,
-             :photo_url,
-             :role
+             :photo_url
+
+  attribute :role
+
+  def role
+    RoleSerializer.new object.role
+  end
 end
