@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_14_181101) do
+ActiveRecord::Schema.define(version: 2019_05_21_183733) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2019_05_14_181101) do
     t.string "phone"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "country"
   end
 
   create_table "modulus", force: :cascade do |t|
@@ -97,6 +98,7 @@ ActiveRecord::Schema.define(version: 2019_05_14_181101) do
     t.bigint "role_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "username"
     t.index ["role_id"], name: "index_users_on_role_id"
   end
 
