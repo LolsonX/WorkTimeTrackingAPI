@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :users, param: :_username
+  resources :users, param: :_username, except: [:show]
+  get '/user', to: 'users#show_by_token'
   post '/auth/login', to: 'authentication#login'
   resources :customer
   resources :project

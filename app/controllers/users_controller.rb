@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :authorize_request, except: :create
-  before_action :find_user, except: %i[create index]
+  before_action :find_user, except: %i[create index show_by_token]
 
   # GET /users
   def index
@@ -10,9 +10,17 @@ class UsersController < ApplicationController
 
   # GET /users/{username}
   def show
+    @user = User.find_by username: user_params[:username]
     render json: @user, status: :ok
   end
 
+  def show_by_token
+    puts get_user_from_token
+    @user = User.find_by id: get_user_from_token["user_id"]
+    render json: @user,
+           status: :ok,
+           key_transform: :camel_lower
+  end
   # POST /users
   def create
     @user = User.new(user_params)
@@ -49,5 +57,9 @@ class UsersController < ApplicationController
     params.permit(
         :first_name, :username, :email, :password, :password_confirmation, :role_id
     )
+  end
+
+  def get_user_from_token
+    JsonWebToken.decode request.headers[:Authorization].split[1]
   end
 end
