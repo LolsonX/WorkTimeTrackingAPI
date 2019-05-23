@@ -1,3 +1,4 @@
+#TODO implement 422 unprocessable entity error add to json
 class ApplicationController < ActionController::API
   def not_found
     render json: { error: 'Not found' }

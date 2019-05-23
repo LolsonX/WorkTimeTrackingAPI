@@ -7,15 +7,15 @@ class TaskController < ApplicationController
   end
 
   def show
-    show_user_tasks and return unless task_params[:user_id].nil?
-    show_project_tasks and return unless task_params[:project_id].nil?
-    show_module_tasks and return unless task_params[:module_id].nil?
+    show_user_tasks and return unless task_params[:userId].nil?
+    show_project_tasks and return unless task_params[:projectId].nil?
+    show_module_tasks and return unless task_params[:moduleId].nil?
     show_task and return unless task_path[:id].nil?
     not_found
   end
 
   def show_user_tasks
-    @task = Task.where user_id: task_params[:user_id]
+    @tasks = Task.where user_id: task_params[:userId]
     render json: @task,
            status: :ok,
            key_transform: :camel_lower
@@ -23,15 +23,15 @@ class TaskController < ApplicationController
   end
 
   def show_project_tasks
-    @task = Task.where project_id: task_params[:project_id]
-    render json: @task,
+    @tasks = Modulu.where(project_id: task_params[:projectId]).tasks
+    render json: @tasks,
            status: :ok,
            key_transform: :camel_lower
     true
   end
 
   def show_module_tasks
-    @task = Task.where module_id: task_params[:module_id]
+    @tasks = Task.where module_id: task_params[:moduleId]
     render json: @task,
            status: :ok,
            key_transform: :camel_lower
@@ -47,7 +47,9 @@ class TaskController < ApplicationController
   end
 
   def create
-
+    @task = Task.new
+    @task.title = task_params[:title]
+    @task.description = task
   end
 
   def update
@@ -57,6 +59,15 @@ class TaskController < ApplicationController
   private
 
   def task_params
-    params.permit :id, :user_id, :project_id, :module_id
+    params.permit :id,
+                  :title,
+                  :description,
+                  :estimation,
+                  :dateAdded,
+                  :dateModified,
+                  :userId,
+                  :projectId,
+                  :moduluId,
+                  :stateId
   end
 end
