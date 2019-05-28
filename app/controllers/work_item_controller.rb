@@ -1,5 +1,5 @@
 class WorkItemController < ApplicationController
-  before_action :get_work_item, except: [:index, :create]
+  before_action :get_work_item, except: [:index, :create, :show_hours]
 
   def index
     @work_items = WorkItem.all
@@ -56,9 +56,18 @@ class WorkItemController < ApplicationController
     end
   end
 
-  def show_monthly_work_items
-    month = work_item_params[:month]
-    year = work_item_params[:year]
+  def show
+    render json:@work_item,
+           status: :ok,
+           key_transform: :camel_lower
+  end
+
+  def show_hours
+    month = work_item_params[:month].to_i
+    year = work_item_params[:year].to_i
+
+    render json: {"monthlyHours": calculate_hours(year, month)},
+           status: :ok
 
   end
   private
@@ -70,5 +79,22 @@ class WorkItemController < ApplicationController
 
   def work_item_params
     params.permit :id, :startTime, :endTime, :description, :taskId, :userId, :year, :month
+  end
+
+  def calculate_hours(year, month)
+    last_day_of_month = days_in_month year, month
+    @work_items = WorkItem.where created_at: Date.new(year, month, 1)..Date.new(year, month, last_day_of_month),
+                                 user_id: work_item_params[:userId]
+    hours_per_day = Array.new(last_day_of_month, 0)
+    @work_items.map do |item|
+      pos = item.created_at.mday - 1
+      hours_per_day[pos] = item.end_time - item.start_time
+    end
+    hours_per_day
+end
+  def days_in_month(year, month)
+    common = [nil, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    return 29 if month == 2 && Date.gregorian_leap?(year)
+    common[month]
   end
 end

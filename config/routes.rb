@@ -8,7 +8,8 @@ Rails.application.routes.draw do
   resources :modulu
   resources :task
   resources :role
-  resources :work_item
+  resources :work_item, except: [:show]
+  get '/work_hours', to: 'work_item#show_hours'
   resources :state, only:[:index]
   get '/*a', to: 'application#not_found'
 end
