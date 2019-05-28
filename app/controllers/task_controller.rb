@@ -53,7 +53,7 @@ class TaskController < ApplicationController
                      date_added: task_params[:dateAdded],
                      date_modified: task_params[:dateModified],
                      user_id: task_params[:userId],
-                     modulu_id: task_params[:moduluId],
+                     modulu_id: task_params[:moduleId],
                      state_id: task_params[:stateId]
     if @task.save
       render json: @task,
@@ -73,7 +73,7 @@ class TaskController < ApplicationController
                     date_added: task_params[:dateAdded],
                     date_modified: task_params[:dateModified],
                     user_id: task_params[:userId],
-                    modulu_id: task_params[:moduluId],
+                    modulu_id: task_params[:moduleId],
                     state_id: task_params[:stateId]
 
       render json: @task,
@@ -98,7 +98,7 @@ class TaskController < ApplicationController
                   :dateModified,
                   :userId,
                   :projectId,
-                  :moduluId,
+                  :moduleId,
                   :stateId
   end
 end

@@ -1,6 +1,6 @@
 class TaskSerializer < ActiveModel::Serializer
   attributes :id,
-             :module,
+             :modulu,
              :state,
              :user,
              :title,
