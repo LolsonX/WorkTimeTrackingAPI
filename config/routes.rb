@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :project
   resources :modulu
   resources :task
+  resources :role
   resources :work_item
   resources :state, only:[:index]
   get '/*a', to: 'application#not_found'

@@ -56,6 +56,11 @@ class WorkItemController < ApplicationController
     end
   end
 
+  def show_monthly_work_items
+    month = work_item_params[:month]
+    year = work_item_params[:year]
+
+  end
   private
 
   def get_work_item
@@ -64,6 +69,6 @@ class WorkItemController < ApplicationController
   end
 
   def work_item_params
-    params.permit :id, :startTime, :endTime, :description, :taskId, :userId
+    params.permit :id, :startTime, :endTime, :description, :taskId, :userId, :year, :month
   end
 end
