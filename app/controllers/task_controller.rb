@@ -47,13 +47,44 @@ class TaskController < ApplicationController
   end
 
   def create
-    @task = Task.new
-    @task.title = task_params[:title]
-    @task.description = task
+    @task = Task.new title: task_params[:title],
+                     description: task_params[:description],
+                     estimation: task_params[:estimation],
+                     date_added: task_params[:dateAdded],
+                     date_modified: task_params[:dateModified],
+                     user_id: task_params[:userId],
+                     project_id: task_params[:projectId],
+                     modulu_id: task_params[:moduluId],
+                     state_id: task_params[:stateId]
+    if @task.save
+      render json: @task,
+             status: :ok,
+             key_transform: :lower_camel
+    else
+      render json: @task,
+             status: :unprocessable_entity,
+             key_transform: :lower_camel
+    end
   end
 
   def update
+    if @task.update title: task_params[:title],
+                    description: task_params[:description],
+                    estimation: task_params[:estimation],
+                    date_added: task_params[:dateAdded],
+                    date_modified: task_params[:dateModified],
+                    user_id: task_params[:userId],
+                    project_id: task_params[:projectId],
+                    modulu_id: task_params[:moduluId],
+                    state_id: task_params[:stateId]
 
+      render json: @task,
+             status: :ok,
+             key_transform: :lower_camel
+    else
+      render json: @task,
+             status: :unprocessable_entity,
+             key_transform: :lower_camel
   end
 
   private
