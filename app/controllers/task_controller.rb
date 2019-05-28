@@ -1,5 +1,8 @@
 class TaskController < ApplicationController
   def index
+    show_user_tasks and return unless task_params[:userId].nil?
+    show_project_tasks and return unless task_params[:projectId].nil?
+    show_module_tasks and return unless task_params[:moduleId].nil?
     @tasks = Task.all
     render json: @tasks,
            status: 200,
@@ -7,9 +10,6 @@ class TaskController < ApplicationController
   end
 
   def show
-    show_user_tasks and return unless task_params[:userId].nil?
-    show_project_tasks and return unless task_params[:projectId].nil?
-    show_module_tasks and return unless task_params[:moduleId].nil?
     show_task and return unless task_path[:id].nil?
     not_found
   end
