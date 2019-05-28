@@ -88,7 +88,7 @@ class WorkItemController < ApplicationController
     hours_per_day = Array.new(last_day_of_month, 0)
     @work_items.map do |item|
       pos = item.created_at.mday - 1
-      hours_per_day[pos] = item.end_time - item.start_time
+      hours_per_day[pos] = item.end_time.hour - item.start_time.hour
     end
     hours_per_day
 end

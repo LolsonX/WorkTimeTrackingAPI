@@ -82,7 +82,8 @@ class UsersController < ApplicationController
   private
 
   def find_user
-    @user = User.find_by id: (user_params[:id])
+    @user = User.find_by id: (user_params[:id]) unless user_params[:id]
+    @user = User.find_by username: (user_params[:username]) unless user_params[:username]
   rescue ActiveRecord::RecordNotFound
     render json: { errors: 'User not found' },
            status: :not_found,
