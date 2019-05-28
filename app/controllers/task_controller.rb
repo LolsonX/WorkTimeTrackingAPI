@@ -10,7 +10,7 @@ class TaskController < ApplicationController
   end
 
   def show
-    show_task and return unless task_path[:id].nil?
+    show_task and return unless task_params[:id].nil?
     not_found
   end
 
