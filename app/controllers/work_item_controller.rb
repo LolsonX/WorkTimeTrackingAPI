@@ -5,7 +5,7 @@ class WorkItemController < ApplicationController
     @work_items = WorkItem.all
     render json: @work_items,
            status: :ok,
-           key_transform: :lower_camel
+           key_transform: :camel_lower
   end
 
   def create
@@ -14,14 +14,16 @@ class WorkItemController < ApplicationController
     @work_item.end_time = work_item_params[:endTime]
     @work_item.description = work_item_params[:description]
     @work_item.task_id = work_item_params[:taskId]
+    @work_item.user_id = work_item_params[:userId]
+
     if @work_item.save
       render json:@work_item,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"},
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
@@ -29,15 +31,16 @@ class WorkItemController < ApplicationController
     @work_item.start_time = work_item_params[:startTime] unless work_item_params[:startTime].nil?
     @work_item.end_time = work_item_params[:endTime] unless work_item_params[:endTime].nil?
     @work_item.description = work_item_params[:description] unless work_item_params[:description].nil?
-    @work_item.task_id = work_item_params[:taskId] unless work_item_params[:task_id].nil?
+    @work_item.task_id = work_item_params[:taskId] unless work_item_params[:taskId].nil?
+    @work_item.user_id = work_item_params[:userId] unless work_item_params[:userId].nil?
     if @work_item.save
       render json:@work_item,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"},
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
@@ -45,11 +48,11 @@ class WorkItemController < ApplicationController
     if @work_item.destroy
       render json:@work_item,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"},
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
@@ -61,6 +64,6 @@ class WorkItemController < ApplicationController
   end
 
   def work_item_params
-    params.permit :id, :startTime, :endTime, :description, :taskId
+    params.permit :id, :startTime, :endTime, :description, :taskId, :userId
   end
 end

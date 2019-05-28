@@ -1,3 +1,3 @@
 class StateSerializer < ActiveModel::Serializer
-  attributes :name
+  attributes :id, :name
 end

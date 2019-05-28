@@ -5,7 +5,7 @@ class ModuluController < ApplicationController
     @modulus = Modulu.all
     render json: @modulus,
            state: :ok,
-           key_transform: :lower_camel
+           key_transform: :camel_lower
   end
 
   def create
@@ -17,7 +17,7 @@ class ModuluController < ApplicationController
     if @modulu.save
       render json: @modulu,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"}
     end
@@ -31,7 +31,7 @@ class ModuluController < ApplicationController
     if @modulu.save
       render json: @modulu,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"}
     end
@@ -42,7 +42,7 @@ class ModuluController < ApplicationController
     if @modulu.destroy
       render json: @modulu,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"}
     end
