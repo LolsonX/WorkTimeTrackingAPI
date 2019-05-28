@@ -43,12 +43,13 @@ class ProjectController < ApplicationController
   end
 
   def create
-    @project = Project.new
-    @project.name = project_params[:name]
-    @project.implementation_date = project_params[:implementationDate]
-    @project.date_added = project_params[:dateAdded]
-    @project.customer_id = project_params[:customerId]
-    @project.state_id = project_params[:stateId]
+    @project = Project.new name: project_params[:name],
+                           implementation_date: project_params[:implementationDate],
+                           date_added: project_params[:dateAdded],
+                           customer_id: project_params[:customerId],
+                           state_id: project_params[:stateId]
+
+    puts @project.valid?
     if @project.save
       render json: @project,
              status: :ok,
