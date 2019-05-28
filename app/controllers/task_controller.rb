@@ -16,7 +16,7 @@ class TaskController < ApplicationController
 
   def show_user_tasks
     @tasks = Task.where user_id: task_params[:userId]
-    render json: @task,
+    render json: @tasks,
            status: :ok,
            key_transform: :camel_lower
     true
@@ -32,7 +32,7 @@ class TaskController < ApplicationController
 
   def show_module_tasks
     @tasks = Task.where module_id: task_params[:moduleId]
-    render json: @task,
+    render json: @tasks,
            status: :ok,
            key_transform: :camel_lower
     true
