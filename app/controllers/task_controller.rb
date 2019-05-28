@@ -53,7 +53,6 @@ class TaskController < ApplicationController
                      date_added: task_params[:dateAdded],
                      date_modified: task_params[:dateModified],
                      user_id: task_params[:userId],
-                     project_id: task_params[:projectId],
                      modulu_id: task_params[:moduluId],
                      state_id: task_params[:stateId]
     if @task.save
@@ -74,7 +73,6 @@ class TaskController < ApplicationController
                     date_added: task_params[:dateAdded],
                     date_modified: task_params[:dateModified],
                     user_id: task_params[:userId],
-                    project_id: task_params[:projectId],
                     modulu_id: task_params[:moduluId],
                     state_id: task_params[:stateId]
 
