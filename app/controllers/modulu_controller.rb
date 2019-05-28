@@ -2,10 +2,14 @@ class ModuluController < ApplicationController
   before_action :get_modulu, except: [:index, :create, :show]
 
   def index
+    if modulu_params[:projectId].nil?
     @modulus = Modulu.all
     render json: @modulus,
            state: :ok,
            key_transform: :camel_lower
+    else
+      show_by_project
+    end
   end
 
   def create
@@ -58,6 +62,13 @@ class ModuluController < ApplicationController
   end
   private
 
+  def show_by_project
+    @modulu = Modulu.where project_id: modulu_params[:projectId]
+    not_found if @modulu.nil?
+    render json: @modulu,
+           status: :ok,
+           key_transform: :camel_lower
+  end
   def get_modulu
     @modulu = Modulu.find_by id: modulu_params[:id]
     not_found if @modulu.nil?
