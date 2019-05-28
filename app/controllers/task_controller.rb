@@ -85,6 +85,8 @@ class TaskController < ApplicationController
       render json: @task,
              status: :unprocessable_entity,
              key_transform: :lower_camel
+    end
+
   end
 
   private
