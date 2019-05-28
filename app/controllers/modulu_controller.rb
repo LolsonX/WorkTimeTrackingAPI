@@ -49,7 +49,8 @@ class ModuluController < ApplicationController
   end
 
   def show
-    @modulu = Modulu.find_by project_id: modulu_params[:projectId] unless modulu_params[:projectId].nil?
+    @modulu = Modulu.where project_id: modulu_params[:projectId] unless modulu_params[:projectId].nil?
+    @modulu = Modulu.find_by id: modulu_params[:id] unless modulu_params[:id].nil?
     not_found if @modulu.nil?
     render json: @modulu,
            status: :ok,
@@ -63,6 +64,6 @@ class ModuluController < ApplicationController
   end
 
   def modulu_params
-    params.permit :id, :implementationDate, :projectId, :stateId
+    params.permit :id, :implementationDate, :projectId, :stateId, :name
   end
 end
