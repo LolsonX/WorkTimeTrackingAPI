@@ -59,11 +59,11 @@ class TaskController < ApplicationController
     if @task.save
       render json: @task,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: @task,
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
@@ -80,11 +80,11 @@ class TaskController < ApplicationController
 
       render json: @task,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: @task,
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
 
   end

@@ -5,7 +5,7 @@ class WorkItemController < ApplicationController
     @work_items = WorkItem.all
     render json: @work_items,
            status: :ok,
-           key_transform: :lower_camel
+           key_transform: :camel_lower
   end
 
   def create
@@ -19,11 +19,11 @@ class WorkItemController < ApplicationController
     if @work_item.save
       render json:@work_item,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"},
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
@@ -36,11 +36,11 @@ class WorkItemController < ApplicationController
     if @work_item.save
       render json:@work_item,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"},
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
@@ -48,11 +48,11 @@ class WorkItemController < ApplicationController
     if @work_item.destroy
       render json:@work_item,
              status: :ok,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     else
       render json: {errors: "Unprocessable entity"},
              status: :unprocessable_entity,
-             key_transform: :lower_camel
+             key_transform: :camel_lower
     end
   end
 
