@@ -22,6 +22,15 @@ class CustomerController < ApplicationController
                              email: customer_params[:email],
                              phone: customer_params[:phone],
                              country: customer_params[:country]
+    if @customer.save
+      render json: @customer,
+             status: :ok,
+             key_transform: :camel_lower
+    else
+      render json: @customer,
+             status: :unprocessable_entity,
+             key_transform: :camel_lower
+    end
 
     def update
       @customer = Customer.find_by id: customer_params[:id]
