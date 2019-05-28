@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4640afbf-7941-4142-8433-f548c10c14e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WorkTimeTrackingAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkTimeTrackingAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/project_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/project_controller.rb" afterDir="false" />
-    </list>
+    <list default="true" id="4640afbf-7941-4142-8433-f548c10c14e6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/development.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -86,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/project_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -96,221 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/serializers/project_serializer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://RailsDependency/Role">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>RailsDependency</ID>
-              <OriginalElement>Role</OriginalElement>
-              <nodes>
-                <node x="265.9801829268293" y="1661.0">WorkItem</node>
-                <node x="314.827066395664" y="373.0">User</node>
-                <node x="427.202066395664" y="757.0">Role</node>
-                <node x="176.9385162601626" y="1143.0">Modulu</node>
-                <node x="87.57706639566402" y="97.0">Customer</node>
-                <node x="253.62500000000006" y="0.0">ApplicationRecord</node>
-                <node x="30.500000000000057" y="945.0">State</node>
-                <node x="110.1260162601626" y="1363.0">Task</node>
-                <node x="243.57706639566402" y="185.5">UserProject</node>
-                <node x="134.4385162601626" y="691.0">Project</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Modulu" target="Task">
-                  <point x="42.5" y="80.0" />
-                  <point x="304.4385162601626" y="1333.0" />
-                  <point x="209.8760162601626" y="1333.0" />
-                  <point x="33.25" y="-124.0" />
-                </edge>
-                <edge source="User" target="ApplicationRecord">
-                  <point x="40.75" y="-124.0" />
-                  <point x="437.077066395664" y="77.0" />
-                  <point x="344.6805555555556" y="77.0" />
-                  <point x="16.555555555555543" y="13.5" />
-                </edge>
-                <edge source="Project" target="ApplicationRecord">
-                  <point x="-63.75" y="-102.0" />
-                  <point x="155.6885162601626" y="671.0" />
-                  <point x="77.07706639566402" y="671.0" />
-                  <point x="77.07706639566402" y="67.0" />
-                  <point x="295.0138888888889" y="67.0" />
-                  <point x="-33.111111111111114" y="13.5" />
-                </edge>
-                <edge source="Role" target="User">
-                  <point x="-23.5" y="-36.0" />
-                  <point x="450.702066395664" y="671.0" />
-                  <point x="457.452066395664" y="671.0" />
-                  <point x="61.125" y="124.0" />
-                </edge>
-                <edge source="Customer" target="ApplicationRecord">
-                  <point x="0.0" y="-113.0" />
-                  <point x="155.57706639566402" y="77.0" />
-                  <point x="311.5694444444445" y="77.0" />
-                  <point x="-16.555555555555543" y="13.5" />
-                </edge>
-                <edge source="State" target="Task">
-                  <point x="-14.125" y="69.0" />
-                  <point x="72.87500000000006" y="1123.0" />
-                  <point x="82.448340108401" y="1123.0" />
-                  <point x="82.448340108401" y="1333.0" />
-                  <point x="143.3760162601626" y="1333.0" />
-                  <point x="-33.25" y="-124.0" />
-                </edge>
-                <edge source="Task" target="User">
-                  <point x="55.416666666666686" y="-124.0" />
-                  <point x="232.0426829268293" y="1343.0" />
-                  <point x="416.702066395664" y="1343.0" />
-                  <point x="20.375" y="124.0" />
-                </edge>
-                <edge source="State" target="Project">
-                  <point x="28.25" y="-69.0" />
-                  <point x="115.25000000000006" y="920.0" />
-                  <point x="176.9385162601626" y="920.0" />
-                  <point x="-42.5" y="102.0" />
-                </edge>
-                <edge source="Modulu" target="ApplicationRecord">
-                  <point x="56.666666666666686" y="-80.0" />
-                  <point x="318.6051829268293" y="1123.0" />
-                  <point x="531.702066395664" y="1123.0" />
-                  <point x="531.702066395664" y="57.0" />
-                  <point x="377.79166666666674" y="57.0" />
-                  <point x="49.666666666666686" y="13.5" />
-                </edge>
-                <edge source="WorkItem" target="ApplicationRecord">
-                  <point x="28.0" y="-58.0" />
-                  <point x="349.9801829268293" y="1636.0" />
-                  <point x="542.702066395664" y="1636.0" />
-                  <point x="542.702066395664" y="47.0" />
-                  <point x="394.3472222222223" y="47.0" />
-                  <point x="66.22222222222223" y="13.5" />
-                </edge>
-                <edge source="Project" target="UserProject">
-                  <point x="21.25" y="-102.0" />
-                  <point x="240.6885162601626" y="661.0" />
-                  <point x="284.327066395664" y="661.0" />
-                  <point x="-40.75" y="24.5" />
-                </edge>
-                <edge source="State" target="State">
-                  <point x="-42.375" y="69.0" />
-                  <point x="44.62500000000006" y="1103.0" />
-                  <point x="10.500000000000057" y="1103.0" />
-                  <point x="10.500000000000057" y="1014.0" />
-                  <point x="-56.5" y="-0.0" />
-                </edge>
-                <edge source="UserProject" target="ApplicationRecord">
-                  <point x="0.0" y="-24.5" />
-                  <point x="325.077066395664" y="77.0" />
-                  <point x="328.12500000000006" y="77.0" />
-                  <point x="0.0" y="13.5" />
-                </edge>
-                <edge source="WorkItem" target="Task">
-                  <point x="-28.0" y="-58.0" />
-                  <point x="293.9801829268293" y="1636.0" />
-                  <point x="176.6260162601626" y="1636.0" />
-                  <point x="0.0" y="124.0" />
-                </edge>
-                <edge source="Task" target="ApplicationRecord">
-                  <point x="-55.416666666666686" y="-124.0" />
-                  <point x="121.20934959349592" y="1343.0" />
-                  <point x="0.0" y="1343.0" />
-                  <point x="0.0" y="47.0" />
-                  <point x="261.9027777777778" y="47.0" />
-                  <point x="-66.22222222222223" y="13.5" />
-                </edge>
-                <edge source="Project" target="User">
-                  <point x="63.75" y="-102.0" />
-                  <point x="283.1885162601626" y="671.0" />
-                  <point x="375.952066395664" y="671.0" />
-                  <point x="-20.375" y="124.0" />
-                </edge>
-                <edge source="Task" target="Modulu">
-                  <point x="11.083333333333314" y="-124.0" />
-                  <point x="187.70934959349592" y="1323.0" />
-                  <point x="219.4385162601626" y="1323.0" />
-                  <point x="-42.5" y="80.0" />
-                </edge>
-                <edge source="Project" target="Customer">
-                  <point x="-21.25" y="-102.0" />
-                  <point x="198.1885162601626" y="661.0" />
-                  <point x="155.57706639566402" y="661.0" />
-                  <point x="0.0" y="113.0" />
-                </edge>
-                <edge source="User" target="User">
-                  <point x="-61.125" y="124.0" />
-                  <point x="335.202066395664" y="641.0" />
-                  <point x="294.827066395664" y="641.0" />
-                  <point x="294.827066395664" y="497.0" />
-                  <point x="-81.5" y="-0.0" />
-                </edge>
-                <edge source="Role" target="ApplicationRecord">
-                  <point x="23.5" y="-36.0" />
-                  <point x="497.702066395664" y="67.0" />
-                  <point x="361.23611111111114" y="67.0" />
-                  <point x="33.111111111111086" y="13.5" />
-                </edge>
-                <edge source="State" target="ApplicationRecord">
-                  <point x="-28.25" y="-69.0" />
-                  <point x="58.75000000000006" y="57.0" />
-                  <point x="278.45833333333337" y="57.0" />
-                  <point x="-49.666666666666686" y="13.5" />
-                </edge>
-                <edge source="Modulu" target="Project">
-                  <point x="0.0" y="-80.0" />
-                  <point x="42.5" y="102.0" />
-                </edge>
-                <edge source="Task" target="State">
-                  <point x="-11.083333333333371" y="-124.0" />
-                  <point x="165.54268292682923" y="1323.0" />
-                  <point x="99.82706639566402" y="1323.0" />
-                  <point x="99.82706639566402" y="1123.0" />
-                  <point x="101.12500000000006" y="1123.0" />
-                  <point x="14.125" y="69.0" />
-                </edge>
-                <edge source="User" target="UserProject">
-                  <point x="-40.75" y="-124.0" />
-                  <point x="355.577066395664" y="348.0" />
-                  <point x="365.827066395664" y="348.0" />
-                  <point x="40.75" y="24.5" />
-                </edge>
-                <edge source="Modulu" target="State">
-                  <point x="-56.66666666666666" y="-80.0" />
-                  <point x="205.27184959349592" y="1123.0" />
-                  <point x="129.37500000000006" y="1123.0" />
-                  <point x="42.375" y="69.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="-510.57695194291773" y="889.333333333333" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Association fields</Category>
-                <Category>Migration fields</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/serializers/state_serializer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2494">
-              <caret line="1961" column="12" selection-start-line="1961" selection-start-column="12" selection-end-line="1961" selection-end-column="12" />
+            <state relative-caret-position="-1730">
+              <caret line="1785" column="12" selection-start-line="1785" selection-start-column="12" selection-end-line="1785" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -417,6 +229,7 @@
         <option value="$PROJECT_DIR$/app/controllers/work_item_controller.rb" />
         <option value="$PROJECT_DIR$/app/serializers/work_item_serializer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/project_controller.rb" />
+        <option value="$PROJECT_DIR$/log/development.log" />
       </list>
     </option>
   </component>
@@ -478,6 +291,11 @@
               <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="initializers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkTimeTrackingAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkTimeTrackingAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -648,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38586000" />
+    <option name="totallyTimeSpent" value="39960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,10 +481,10 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20053333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20053333" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -675,7 +493,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.497558" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.497558" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502442" side_tool="true" weight="0.32954547" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1982,8 +1800,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2494">
-          <caret line="1961" column="12" selection-start-line="1961" selection-start-column="12" selection-end-line="1961" selection-end-column="12" />
+        <state relative-caret-position="-1730">
+          <caret line="1785" column="12" selection-start-line="1785" selection-start-column="12" selection-end-line="1785" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -2049,13 +1867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
           <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -2137,13 +1948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/work_item_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -2155,6 +1959,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
