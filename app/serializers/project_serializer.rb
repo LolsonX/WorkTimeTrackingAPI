@@ -3,7 +3,7 @@ class ProjectSerializer < ActiveModel::Serializer
   attribute :users
 
   def users
-    object.user_project.map do |up|
+    object.user_projects.map do |up|
       UserSerializer.new up
     end
   end
