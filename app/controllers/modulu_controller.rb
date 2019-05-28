@@ -1,5 +1,5 @@
 class ModuluController < ApplicationController
-  before_action :get_modulu, except: [:index, :create]
+  before_action :get_modulu, except: [:index, :create, :show]
 
   def index
     @modulus = Modulu.all
@@ -48,6 +48,13 @@ class ModuluController < ApplicationController
     end
   end
 
+  def show
+    @modulu = Modulu.find_by project_id: modulu_params[:projectId] unless modulu_params[:projectId].nil?
+    not_found if @modulu.nil?
+    render json: @modulu,
+           status: :ok,
+           key_transform: :camel_lower
+  end
   private
 
   def get_modulu
