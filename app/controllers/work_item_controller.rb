@@ -33,6 +33,7 @@ class WorkItemController < ApplicationController
     @work_item.description = work_item_params[:description] unless work_item_params[:description].nil?
     @work_item.task_id = work_item_params[:taskId] unless work_item_params[:taskId].nil?
     @work_item.user_id = work_item_params[:userId] unless work_item_params[:userId].nil?
+
     if @work_item.save
       render json:@work_item,
              status: :ok,
@@ -87,11 +88,11 @@ class WorkItemController < ApplicationController
                                  user_id: work_item_params[:userId]
     hours_per_day = Array.new(last_day_of_month, 0)
     @work_items.map do |item|
-      pos = item.created_at.mday - 1
+      pos = item.start_time.mday - 1
       hours_per_day[pos] = item.end_time.hour - item.start_time.hour
     end
     hours_per_day
-end
+  end
   def days_in_month(year, month)
     common = [nil, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     return 29 if month == 2 && Date.gregorian_leap?(year)
