@@ -21,7 +21,7 @@ class WorkItemController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"},
+      render json: {errors: 'Unprocessable entity'},
              status: :unprocessable_entity,
              key_transform: :camel_lower
     end
@@ -38,7 +38,7 @@ class WorkItemController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"},
+      render json: {errors: 'Unprocessable entity'},
              status: :unprocessable_entity,
              key_transform: :camel_lower
     end
@@ -50,7 +50,7 @@ class WorkItemController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"},
+      render json: {errors: 'Unprocessable entity'},
              status: :unprocessable_entity,
              key_transform: :camel_lower
     end
@@ -66,7 +66,7 @@ class WorkItemController < ApplicationController
     month = work_item_params[:month].to_i
     year = work_item_params[:year].to_i
 
-    render json: {"monthlyHours": calculate_hours(year, month)},
+    render json: {'monthlyHours': calculate_hours(year, month)},
            status: :ok
 
   end

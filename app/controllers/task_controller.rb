@@ -67,6 +67,7 @@ class TaskController < ApplicationController
   end
 
   def update
+    @task = Task.find_by id: task_params[:id]
     if @task.update title: task_params[:title],
                     description: task_params[:description],
                     estimation: task_params[:estimation],
