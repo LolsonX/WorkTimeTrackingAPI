@@ -2,7 +2,7 @@ class TaskController < ApplicationController
   def index
     show_user_tasks and return unless task_params[:userId].nil?
     show_project_tasks and return unless task_params[:projectId].nil?
-    show_module_tasks and return unless task_params[:moduleId].nil?
+    show_module_tasks and return unless task_params[:moduluId].nil?
     @tasks = Task.all
     render json: @tasks,
            status: 200,
@@ -53,7 +53,7 @@ class TaskController < ApplicationController
                      date_added: task_params[:dateAdded],
                      date_modified: task_params[:dateModified],
                      user_id: task_params[:userId],
-                     modulu_id: task_params[:moduleId],
+                     modulu_id: task_params[:moduluId],
                      state_id: task_params[:stateId]
     if @task.save
       render json: @task,
@@ -67,13 +67,11 @@ class TaskController < ApplicationController
   end
 
   def update
+    @task = Task.find_by id: task_params[:id]
     if @task.update title: task_params[:title],
                     description: task_params[:description],
-                    estimation: task_params[:estimation],
-                    date_added: task_params[:dateAdded],
                     date_modified: task_params[:dateModified],
-                    user_id: task_params[:userId],
-                    modulu_id: task_params[:moduleId],
+                    modulu_id: task_params[:moduluId],
                     state_id: task_params[:stateId]
 
       render json: @task,
@@ -98,7 +96,7 @@ class TaskController < ApplicationController
                   :dateModified,
                   :userId,
                   :projectId,
-                  :moduleId,
+                  :moduluId,
                   :stateId
   end
 end
