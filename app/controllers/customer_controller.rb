@@ -47,17 +47,7 @@ class CustomerController < ApplicationController
                key_transform: :camel_lower
       end
     end
-    if @customer.save
-      render json: @customer,
-             status: :ok,
-             key_transform: :camel_lower
-    else
-      render json: @customer,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
-    end
 
-  end
   private
 
   def customer_params
