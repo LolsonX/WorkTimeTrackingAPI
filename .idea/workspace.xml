@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4640afbf-7941-4142-8433-f548c10c14e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/models/work_item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/work_item.rb" afterDir="false" />
-    </list>
+    <list default="true" id="4640afbf-7941-4142-8433-f548c10c14e6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -455,7 +453,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58000000" />
+    <option name="totallyTimeSpent" value="58353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

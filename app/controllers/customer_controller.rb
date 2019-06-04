@@ -31,6 +31,8 @@ class CustomerController < ApplicationController
              status: :unprocessable_entity,
              key_transform: :camel_lower
     end
+  end
+
 
     def update
       @customer = Customer.find_by id: customer_params[:id]
