@@ -1,4 +1,5 @@
 class CustomerController < ApplicationController
+  before_action :authorize_request
   def index
     @customers = Customer.all
     render json: @customers,

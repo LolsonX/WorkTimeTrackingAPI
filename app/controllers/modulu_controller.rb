@@ -1,4 +1,5 @@
 class ModuluController < ApplicationController
+  before_action :authorize_request
   before_action :get_modulu, except: [:index, :create]
 
   def index

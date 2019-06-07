@@ -1,4 +1,5 @@
 class RoleController < ApplicationController
+  before_action :authorize_request
   before_action :find_role, except: [:index, :create]
   def index
     @roles = Role.all

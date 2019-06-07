@@ -1,4 +1,5 @@
 class TaskController < ApplicationController
+  before_action :authorize_request
   def index
     show_user_tasks and return unless task_params[:userId].nil?
     show_project_tasks and return unless task_params[:projectId].nil?

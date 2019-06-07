@@ -1,4 +1,5 @@
 class ProjectController < ApplicationController
+  before_action :authorize_request
   before_action :get_project, except: [:index, :create]
   def index
     @projects = Project.all

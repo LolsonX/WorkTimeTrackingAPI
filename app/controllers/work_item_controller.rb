@@ -1,4 +1,5 @@
 class WorkItemController < ApplicationController
+  before_action :authorize_request
   before_action :get_work_item, except: [:index, :create, :show_hours]
 
   def index
@@ -93,6 +94,7 @@ class WorkItemController < ApplicationController
     end
     hours_per_day
   end
+
   def days_in_month(year, month)
     common = [nil, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     return 29 if month == 2 && Date.gregorian_leap?(year)
