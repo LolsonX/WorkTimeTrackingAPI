@@ -22,9 +22,7 @@ class WorkItemController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: 'Unprocessable entity'},
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @work_item
     end
   end
 
@@ -40,9 +38,7 @@ class WorkItemController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: 'Unprocessable entity'},
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @work_item
     end
   end
 
@@ -52,9 +48,7 @@ class WorkItemController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: 'Unprocessable entity'},
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @work_item
     end
   end
 

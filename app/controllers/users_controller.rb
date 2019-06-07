@@ -39,9 +39,7 @@ class UsersController < ApplicationController
              status: :created,
              key_transform: :camel_lower
     else
-      render json: { errors: @user.errors.full_messages },
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @user
     end
   end
 
@@ -59,10 +57,7 @@ class UsersController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-
-      render json: {errors: @user.errors.full_messages},
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @user
     end
   end
 
@@ -73,9 +68,7 @@ class UsersController < ApplicationController
            status: :ok,
            key_transform: :camel_lower
     else
-      render json: @user,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @user
     end
   end
 
@@ -85,9 +78,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: (user_params[:id]) unless user_params[:id]
     @user = User.find_by username: (user_params[:username]) unless user_params[:username]
   rescue ActiveRecord::RecordNotFound
-    render json: { errors: 'User not found' },
-           status: :not_found,
-           key_transform: :camel_lower
+    render_error :not_found,{ errors: 'User not found' },
   end
 
   def user_params

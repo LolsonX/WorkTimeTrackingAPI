@@ -24,7 +24,8 @@ class ModuluController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"}
+      render_error :unprocessable_entity, @modulu
+
     end
   end
 
@@ -38,7 +39,7 @@ class ModuluController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"}
+      render_error :unprocessable_entity, @modulu
     end
 
   end
@@ -49,7 +50,7 @@ class ModuluController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"}
+      render_error :unprocessable_entity, @modulu
     end
   end
 
