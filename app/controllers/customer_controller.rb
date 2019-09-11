@@ -1,4 +1,5 @@
 class CustomerController < ApplicationController
+  before_action :authorize_request
   def index
     @customers = Customer.all
     render json: @customers,
@@ -27,9 +28,7 @@ class CustomerController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: @customer,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @customer
     end
   end
 
@@ -42,9 +41,7 @@ class CustomerController < ApplicationController
                status: :ok,
                key_transform: :camel_lower
       else
-        render json: @customer,
-               status: :unprocessable_entity,
-               key_transform: :camel_lower
+        render_error :unprocessable_entity, @customer
       end
     end
 

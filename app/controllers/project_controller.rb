@@ -1,4 +1,5 @@
 class ProjectController < ApplicationController
+  before_action :authorize_request
   before_action :get_project, except: [:index, :create]
   def index
     @projects = Project.all
@@ -24,9 +25,7 @@ class ProjectController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"},
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @project
     end
   end
 
@@ -36,9 +35,7 @@ class ProjectController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: @project,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @project
     end
   end
 
@@ -49,15 +46,12 @@ class ProjectController < ApplicationController
                            customer_id: project_params[:customerId],
                            state_id: project_params[:stateId]
 
-    puts @project.valid?
     if @project.save
       render json: @project,
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"},
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @project
     end
   end
 

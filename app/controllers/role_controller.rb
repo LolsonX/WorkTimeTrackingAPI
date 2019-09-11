@@ -1,4 +1,5 @@
 class RoleController < ApplicationController
+  before_action :authorize_request
   before_action :find_role, except: [:index, :create]
   def index
     @roles = Role.all
@@ -10,13 +11,11 @@ class RoleController < ApplicationController
   def create
     @role = Role.new role_params
     if @role.save
-      render json:@role,
+      render json: @role,
              status: :ok,
              key_transform: :camel_lower
     else
-      render json:@role,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @role
     end
   end
 
@@ -26,9 +25,7 @@ class RoleController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json:@role,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @role
     end
   end
 
@@ -38,9 +35,7 @@ class RoleController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json:@role,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @role
     end
   end
 

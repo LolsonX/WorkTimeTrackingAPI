@@ -1,4 +1,5 @@
 class ModuluController < ApplicationController
+  before_action :authorize_request
   before_action :get_modulu, except: [:index, :create]
 
   def index
@@ -23,7 +24,8 @@ class ModuluController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"}
+      render_error :unprocessable_entity, @modulu
+
     end
   end
 
@@ -37,7 +39,7 @@ class ModuluController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"}
+      render_error :unprocessable_entity, @modulu
     end
 
   end
@@ -48,7 +50,7 @@ class ModuluController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: {errors: "Unprocessable entity"}
+      render_error :unprocessable_entity, @modulu
     end
   end
 

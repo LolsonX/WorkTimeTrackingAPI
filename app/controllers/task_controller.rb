@@ -1,4 +1,6 @@
 class TaskController < ApplicationController
+  before_action :authorize_request
+
   def index
     show_user_tasks and return unless task_params[:userId].nil?
     show_project_tasks and return unless task_params[:projectId].nil?
@@ -60,9 +62,7 @@ class TaskController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: @task,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @task
     end
   end
 
@@ -78,9 +78,7 @@ class TaskController < ApplicationController
              status: :ok,
              key_transform: :camel_lower
     else
-      render json: @task,
-             status: :unprocessable_entity,
-             key_transform: :camel_lower
+      render_error :unprocessable_entity, @task
     end
 
   end
