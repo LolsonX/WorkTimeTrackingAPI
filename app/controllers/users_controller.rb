@@ -78,7 +78,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: (user_params[:id]) unless user_params[:id]
     @user = User.find_by username: (user_params[:username]) unless user_params[:username]
   rescue ActiveRecord::RecordNotFound
-    render_error :not_found,{ errors: 'User not found' },
+    render_error :not_found,{ errors: 'User not found' }
   end
 
   def user_params
